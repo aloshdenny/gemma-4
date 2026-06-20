@@ -17,7 +17,7 @@ Before running any code, ensure you have Python installed and set up your enviro
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/aloshdenny/gemma-4
     cd gemma-4
     ```
 
@@ -27,12 +27,13 @@ Before running any code, ensure you have Python installed and set up your enviro
     pip install -r requirements.txt
     ```
 
-3.  **API Keys & Configuration (If necessary):**
-    *   For OpenAI functionality, set your API key as an environment variable:
-        ```bash
-        export OPENAI_API_KEY="your-api-key"
-        ```
-    *   Ensure Ollama is running locally if you plan to use local models.
+3.  **Setup Ollama (if you haven't):**
+    ```bash
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
+    ```bash
+    ollama serve
+    ```
 
 ## 📂 Usage Guide
 
