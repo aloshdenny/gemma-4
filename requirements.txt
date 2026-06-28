@@ -2,3 +2,4 @@ openai
 ollama
 faster-whisper
 ffmpeg-python
+openai-whisper
