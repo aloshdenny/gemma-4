@@ -8,7 +8,7 @@ client = OpenAI(
     api_key="ollama"
 )
 
-MODEL = "gemma4:e4b"
+MODEL = "gemma4:e2b"
 
 def run_chat(history):
     while True:
